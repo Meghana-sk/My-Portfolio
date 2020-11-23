@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <!-- <style> CSS way 1: coloring
+        body{
+            color : blue;
+        }
+    </style> -->
+    <!-- Third way css - external link -->
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- <h1 style= "color : red">Meghana's component library</h1> CSS way 2: style tag -->
+    <h1 id="lib-header">Meghana's component library</h1>
+    <p class="paragraph">It makes project look good</p>
+    <hr>
+    <h2>@Typography</h2>
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second biggest heading</h2>
+    <p>This is normal text - paragraph.</p>
+    <p>This paragraph will have <strong>bold</strong> text</p>
+    <small>This is smaller text</small>
+
+    <hr>
+    <h2>@container</h2>
+    <h3>fluid container</h3>
+    <div class="container
+    container-fluid">This is a fluid container and it will go till the end of page </div>
+
+    <h3>center container</h3>
+    <div class="container
+    container-center">This is a center containerand it will go till specififed width </div>
+
+    <hr>
+    <h2>@Links</h2>
+    <a class="link link-primary" href="/">primary link</a>
+    <a class="link link-secondary" href="/">secondary link</a>
+
+    <hr>
+    <h2>@Lists</h2>
+    <h3>unordered list</h3>
+    <p>This list do not have bullets</p>
+
+
+    <ul class="list-non-bullet">
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+
+    </ul>
+
+    <h3>unordered inline list</h3>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item one</li>
+        <li class="list-item-inline">Inline Item two</li>
+        <li class="list-item-inline">Inline Item three</li>
+    </ul>
+
+    <h3>reverse ordered list</h3>
+    <ol reversed>
+        <li>Cake</li>
+        <li>Chococlate</li>
+        <li>Iceceram</li>
+    </ol>
+
+
+    <hr>
+    <h2>@nav</h2>
+    <nav class="navigation container">
+        <div class="nav-brand">IamBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">About</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <hr>
+    <h2>header</h2>
+    <header class="hero">
+        <img class="hero-image" src="/images/hero image.svg" />
+        <h1 class="hero-heading">Meghana<span class="highlight"> - Web developer</span></h1>
+    </header>
+
+    <hr>
+    <h2>@Sections</h2>
+
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>This will have white background.The survey results from the State of CSS aren’t out yet, but they made this landing page that randomly shows you what one person wrote to answer that question. Just clicking the reload button a bunch, I get the sense that the top answers are:
+
+                Container Queries
+                Parent Selectors
+                Nesting
+                Something extremely odd that doesn’t really make sense and makes me wonder about people</p>
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+        <h1>off white section</h1>
+        <p>This will have grey background.The survey results from the State of CSS aren’t out yet, but they made this landing page that randomly shows you what one person wrote to answer that question. Just clicking the reload button a bunch, I get the sense that the top answers are:
+
+            Container Queries
+            Parent Selectors
+            Nesting
+            Something extremely odd that doesn’t really make sense and makes me wonder about people</p>
+        </div>
+    </section>
+
+    <hr>
+    <h2>@footer</h2>
+    <footer class="footer">
+        <div class="footer-header">small heading</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">twitter</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">linkedin</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">instagram</a>
+            </li>
+        </ul>
+    </footer>
+
+    <!-- <div style="height :30vh">
+    </div> -->
+
+</body>
+
+</html>

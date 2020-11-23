@@ -1,122 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-    <!-- <style> CSS way 1: coloring
-        body{
-            color : blue;
-        }
-    </style> -->
-    <!-- Third way css - external link -->
-    <link href = "styles.css" rel = "stylesheet"/>
+    <title>Home | Adarsh balika</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
-
 <body>
-    <!-- <h1 style= "color : red">Meghana's component library</h1> CSS way 2: style tag -->
-    <h1 id="lib-header">Meghana's component library</h1> 
-    <p class="paragraph">It makes projects look good</p>
-    <hr>
-    <h2>@Typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p>This is normal text - paragraph.</p>
-    <p>This paragraph will have <strong>bold</strong> text</p>
-    <small>This is smaller text</small>
-
-    <hr>
-    <h2>@container</h2>
-    <h3>fluid container</h3>
-    <div>This is a fluid containerand it will go till the end of page </div>
-
-    <h3>center container</h3>
-    <div>This is a center containerand it will go till specififed width </div>
-
-    <hr>
-    <h2>@Links</h2>
-    <a href="/">primary link</a>
-    <a href="/">secondary link</a>
-
-    <hr>
-    <h2>@Lists</h2>
-    <h3>unordered list</h3>
-   
-    
-    <ul>
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
-
-    </ul>
-
-    <h3>unordered inline list</h3>
-    <ul>
-        <li>Inline Item one</li>
-        <li>Inline Item two</li>
-        <li>Inline Item three</li>
-    </ul>
-
-    <h3>reverse ordered list</h3>
-    <ol>
-        <li>Cake</li>
-        <li>Chococlate</li>
-        <li>Iceceram</li>
-    </ol>
-
-
-    <hr>
-    <h2>@nav</h2>
-    <nav>
-        <div>IamBrand</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">CodePark</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
             </li>
-            <li>
-                <a href="/">projects</a>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">Projects</a>
             </li>
-            <li>
-                <a href="/">About</a>
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">Blogs</a>
             </li>
         </ul>
     </nav>
 
-
-    <hr>
-    <h2>header</h2>
-    <header>
-        <img src="images/hero image.svg" <h1>heading inside hero</h1>
+    <header class="hero">
+        <img class="hero-image" src="images/hero.svg" />
+        <h1 class="hero-heading">Meghana<span class="highlight"> - Web developer</span></h1>
     </header>
 
-    <hr>
-    <h2>@Sections</h2>
+    <section class="section ow">
+        <div class="container container-center">
+        <h1>Technologies</h1>
+        <p>Iam good at C,C++,JS,HTML,CSS,
+                Jenkins,Qt,Git
 
-    <section>
-        <h3>@white section</h3>
-        <p>This will have white background</p>
+            </p>
+        </div>
     </section>
 
-    <section>
-        <h3>@off white section</h3>
-        <p>This will have grey background</p>
+    <section class="section">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>I would like to showcase my work</p>
+            <a class="link link-primary" href="/projects.html">BROWSE PROJECTS</a>
+        </div>
     </section>
 
-    <hr>
-    <h2>@footer</h2>
-    <footer>
-        <div>small heading</div>
-            <ul>
-                <li>socialone</li>
-                <li>socialtwo</li>
-                <li>socialthree</li>
-            </ul>
+    <section class="section ow">
+        <div class="container container-center">
+        <h1>Blogs</h1>
+        <p>Iam working on technical and non-technical blogs to document my journey</p>
+        <a class="link link-secondary" href="/blogs.html">READ BLOGS</a>
+
+        </div>
+    </section>
+
+    
+    <footer class="footer">
+        <div class="footer-header"><strong>Contact me</strong></div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/Meghana14sk">@twitter</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/meghanask">@linkedin</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/Meghana-sk">@github</a>
+            </li>
+        </ul>
     </footer>
 
-    <!-- <div style="height :30vh">
-    </div> -->
-
 </body>
-
 </html>
