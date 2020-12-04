@@ -1,19 +1,15 @@
 /* body{
     color: brown;
 }
-
 h1{
     color: blue;
 }
-
 h2{
     color: orange;
 }
-
 #lib-header{
     color:green;
 }
-
 .paragraph{
     color:yellow;
 } */
@@ -31,7 +27,7 @@ h2{
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: var(--primary-color);
+  
   
 }
 
@@ -73,10 +69,10 @@ hr {
 
 /* padding format flow- top > right > bottom > left */
 .link-secondary {
-  color: #059669;
+  color: white;
   border-radius: 0.5rem;
   border: 1px solid var(--primary-color);
-  background-color: white;
+  background-color: var(--primary-color);
 }
 /* BEM naming convention */
 
@@ -134,12 +130,14 @@ hr {
 .hero .hero-heading {
   align-content: center;
   padding-top: 1rem;
-  color: #edf2f4;
+  color: #6d6875;
+  text-align: center;
   /* color: var(--dark-gray-color); */
 }
 
 .hero .hero-heading .highlight {
-  color: #edf2f4;
+  color: #9a8c98;
+ 
 }
 
 /* section */
@@ -152,6 +150,15 @@ hr {
   text-align: center;
 }
 
+.section-heading{
+  padding: 0.2rem;
+  color: white;
+  background-color: #4b5563;
+  border-radius: 0.5rem;
+  border: 1px solid;
+  padding: 0.5rem 1rem;
+  box-sizing: content-box;
+}
 
 .ow{
     /* background-color: var(--off-white); */
@@ -184,4 +191,3 @@ footer{
   margin: auto;
   align-self: initial;
 }
-
