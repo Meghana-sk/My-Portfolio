@@ -35,6 +35,11 @@ hr {
   margin: 2rem 0rem;
 }
 
+h2{
+  color: whitesmoke;
+  background-color: #012a4a;
+  width: fit-content;
+}
 .container {
   padding-left: 0rem;
   padding-right: 1rem;
@@ -153,12 +158,14 @@ hr {
 
 .section-heading{
   padding: 0.2rem;
-  color: white;
+  color: whitesmoke;
   background-color: #4b5563;
   border-radius: 0.5rem;
   border: 1px solid;
   padding: 0.5rem 1rem;
   box-sizing: content-box;
+  width: fit-content;
+  
 }
 
 .ow{
@@ -166,7 +173,7 @@ hr {
 }
 
 footer{
-    background-color:var(--primary-color);
+    background-color:;
     padding: 0.5rem 0.5rem;
     text-align: center;
     color:white;
