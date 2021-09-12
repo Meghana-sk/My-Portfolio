@@ -88,7 +88,6 @@ h2 {
 .navigation .nav-brand {
   font-weight: bold;
   font-size: 50px;
-  /* font-size: larger; */
   font-style: italic;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -108,7 +107,6 @@ h2 {
 
 .hero .hero-image {
   max-width: 350px;
-  /* border-radius: 50%; */
   display: block;
   margin: auto;
 }
@@ -118,7 +116,6 @@ h2 {
   padding-top: 0.5rem;
   color: #6d6875;
   text-align: center;
-  /* color: var(--dark-gray-color); */
 }
 
 .hero .hero-heading .highlight {
@@ -144,10 +141,6 @@ h2 {
   padding: 0.5rem 1rem;
   box-sizing: content-box;
   width: fit-content;
-}
-
-.ow {
-  /* background-color: var(--off-white); */
 }
 
 footer {
