@@ -27,32 +27,38 @@
     
     <header class="hero">
         <h1 class="hero-heading"><span class="highlight">my blogs</span></h1>
-        <h2 class="section-heading">1. Dummy Blog 1</h2>
-        <img src = "images/jenkins_logo.png"/>
-        <p style="color:white; background-color: darkslategray;">By now, You have seen my projects. Please provide feedback on it.I shall be soon writing few blogs.Stay updated.You should know bit about me.<span id="dots">...</span><span id="more">All thanks to Neogcamp which has given a different and interesting approach to look at things differently and enjoy the process of learning.
-            Do follow Tanay Pratap's youtube channel <a style="color:red; text-decoration: none;" href="https://www.youtube.com/TanayPratap">here</a> to view Neogcamp's videos to get better at Web development.
-        </span></p>
+        <h2 class="section-heading">1.slice, splice Javascript methods. Are they different?</h2>
+        <p>Javascript built-in methods help a lot in saving time and reducing the number of lines for the logic if we were to implement it from the scratch.
+
+            There are two array methods - slice, splice which appear to do the same functionality but they are completely different. So, let's dive in and clear out all the confusion around these methods</p>
 
         <button onclick="myFunction()" id="myBtn">Read more</button>
+      
         <script>
             function myFunction() {
-              var dots = document.getElementById("dots");
-              var moreText = document.getElementById("more");
-              var btnText = document.getElementById("myBtn");
-            
-              if (dots.style.display === "none") {
-                dots.style.display = "inline";
-                btnText.innerHTML = "Read more"; 
-                moreText.style.display = "none";
-              } else {
-                dots.style.display = "none";
-                btnText.innerHTML = "Read less"; 
-                moreText.style.display = "inline";
-              }
+             const blogLink1 = document.createElement("a");
+             blogLink1.href = "https://meghanask.hashnode.dev/slice-splice-javascript-methods-are-they-different";
+             blogLink1.target = '_blank';
+             blogLink1.click()
             }
             </script>
-        
-      
- 
+
+
+<footer class="footer">
+    <div class="footer-header"><strong>Contact me</strong></div>
+    <ul class="list-non-bullet">
+      <li class="list-item-inline">
+        <a class="link" href="https://twitter.com/meghana__sk">twitter</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="https://www.linkedin.com/in/meghanask"
+          >linkedin</a
+        >
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="https://github.com/Meghana-sk">github</a>
+      </li>
+    </ul>
+  </footer>
     </body>
 </html>
