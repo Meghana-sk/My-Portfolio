@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 :root {
-  /* --primary-color: #7c3aed; */
   --primary-color: #2b2d42;
   --dark-gray-color: #4b5563;
   --off-white: #e5e7eb;
@@ -38,11 +37,9 @@ h2 {
   padding-top: 0em;
 }
 
-/* Links */
-
 .link {
   box-sizing: border-box;
-  text-decoration: none; /*removes undreline foer link*/
+  text-decoration: none;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -55,14 +52,12 @@ h2 {
   font-size: x-small;
 }
 
-/* padding format flow- top > right > bottom > left */
 .link-secondary {
   color: white;
   border-radius: 0.5rem;
   border: 1px solid var(--primary-color);
   background-color: var(--primary-color);
 }
-/* BEM naming convention */
 
 .list-non-bullet {
   list-style: none;
@@ -100,7 +95,6 @@ h2 {
   text-align: right;
 }
 
-/* header */
 .hero {
   padding: 2rem;
 }
@@ -121,8 +115,6 @@ h2 {
 .hero .hero-heading .highlight {
   color: #9a8c98;
 }
-
-/* section */
 
 .section {
   padding: 2rem;
@@ -163,7 +155,7 @@ footer {
 .footer-image {
   float: left;
   max-width: 32px;
-  /* border-radius: 50%; */
+
   display: block;
   margin: auto;
   align-self: initial;
