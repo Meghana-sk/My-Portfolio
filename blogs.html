@@ -38,7 +38,31 @@
     </header>
 
     <section class="section">
-      <h2 class="section-heading">1. Javascript variables</h2>
+      <h2 class="section-heading">Why nullish coalescing operator?</h2>
+      <p>
+        Have you encountered a scenario during comparison where if first operand
+        is null or undefined, and you want to use the right operand which has
+        defined value? Many Javascript developers faced this scenario often 🙃.
+        Hence, ES11 introduced a logical operator called nullish coalescing
+        operator (??) which assigns right operand to result of expression if
+        left operand is null or undefined.
+      </p>
+
+      <button onclick="myFunction1()" id="readMore-btn">Read more</button>
+
+      <script>
+        function myFunction1() {
+          const blogLink2 = document.createElement("a");
+          blogLink2.href =
+            "https://meghanask.hashnode.dev/nullish-coalescing-operator";
+          blogLink2.target = "_blank";
+          blogLink2.click();
+        }
+      </script>
+    </section>
+
+    <section class="section">
+      <h2 class="section-heading">Javascript variables</h2>
       <p>
         Javascript variables Hey folks. We shall go through one of the basic
         units of storage - variables.
@@ -51,7 +75,7 @@
         </li>
       </p>
 
-      <button onclick="myFunction2()" id="myBtn2">Read more</button>
+      <button onclick="myFunction2()" id="readMore-btn">Read more</button>
 
       <script>
         function myFunction2() {
@@ -65,14 +89,14 @@
     </section>
 
     <section class="section">
-      <h2 class="section-heading">2. Javascript functions</h2>
+      <h2 class="section-heading">Javascript functions</h2>
       <p>
         A function is simply a set of statements that performs a task. It can be
         just displaying some data or processing a data input etc. Ok, let me
         simplify it.
       </p>
 
-      <button onclick="myFunction3()" id="myBtn3">Read more</button>
+      <button onclick="myFunction3()" id="readMore-btn">Read more</button>
 
       <script>
         function myFunction3() {
@@ -87,7 +111,7 @@
 
     <section class="section">
       <h2 class="section-heading">
-        3. slice, splice Javascript methods. Are they different?
+        slice, splice Javascript methods. Are they different?
       </h2>
       <p>
         Javascript built-in methods help a lot in saving time and reducing the
@@ -97,7 +121,7 @@
         in and clear out all the confusion around these methods
       </p>
 
-      <button onclick="myFunction()" id="myBtn">Read more</button>
+      <button onclick="myFunction()" id="readMore-btn">Read more</button>
 
       <script>
         function myFunction() {

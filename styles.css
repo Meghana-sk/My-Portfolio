@@ -173,3 +173,10 @@ footer {
   font-size: small;
   padding-top: 0.1rem;
 }
+
+#readMore-btn {
+  background-color: var(--primary-color);
+  color: var(--off-white);
+  padding: 0.2rem;
+  border-radius: 6px;
+}
